@@ -68,6 +68,8 @@ function DrawSvg({children,drawStyle,fillStyle}:{drawStyle:DrawStyle,fillStyle:F
         pathRef.current.push(element)
     }
     
+    console.log("Svg image will be drawn using animation present in this component")
+
     if(paths.length==0)return  (<text fill="black" x="500" y="40" fontSize="32" textAnchor="middle" dominantBaseline="middle">At least one path element is required for DrawSvg to function correctly.</text>)
 
     return(
