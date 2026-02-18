@@ -4,6 +4,8 @@ import DrawSvg from "draw-fill-svgs"
 
 const App=()=>{
 
+  console.log("Log added to app.tsx")
+
   return (
     <div>
       <svg xmlns="http://www.w3.org/2000/svg" width="445" height="296" viewBox="0 0 845 596" className="ai-assistance-svg" fill="none">
